@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net7.0</TargetFramework>
+		<TargetFrameworks>net7.0;net8.0;net9.0</TargetFrameworks>
 		<PackageId>XFrame.ValueObjects</PackageId>
-		<Version>7.0.0</Version>
+		<Version>9.0.0</Version>
 		<Authors>Lwandile Mfundisi</Authors>
 		<Description>XFrame.ValueObjects for defining value objects either single valued or object based value objects</Description>
 		<IsPackable>true</IsPackable>
@@ -20,7 +20,7 @@
 	</Target>
 
 	<ItemGroup>
-	  <PackageReference Include="XFrame.Common" Version="7.0.2" />
+	  <PackageReference Include="XFrame.Common" Version="9.0.0" />
 	</ItemGroup>
 
 </Project>
